@@ -59,7 +59,7 @@ class AppTheme {
       ),
       
       // Card Theme
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: AppConstants.cardColor,
         elevation: 2,
         shape: RoundedRectangleBorder(
