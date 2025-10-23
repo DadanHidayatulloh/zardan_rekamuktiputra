@@ -125,11 +125,12 @@ import 'package:rekamukti_putra/screens/splash_screen.dart';
 import 'package:rekamukti_putra/utils/app_theme.dart';
 
 void main() {
-  MyApp(const RekamuktiPutraApp());
+  runApp(const RekamuktiPutraApp());
 }
 
 class RekamuktiPutraApp extends StatelessWidget {
   const RekamuktiPutraApp({super.key});
+  
 
   @override
   Widget build(BuildContext context) {
